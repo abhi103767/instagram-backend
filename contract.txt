@@ -1,0 +1,19 @@
+POST /signup
+accepts : name , username,email,password,mobile,country,gender
+returns: id, token
+
+
+POST /login
+  accepts : username password
+  returns : id,name of user, token
+
+
+POST / logout 
+  accepts : token
+  returns : success
+
+GET / profile
+ 
+ return name, username ,email ,password ,mobile, country , gender,
+
+ 
